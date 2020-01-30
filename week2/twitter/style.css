@@ -1,0 +1,110 @@
+body{
+	background-color: #F8F8FF;
+}
+#int{
+	background-image: url("bird2.png");
+	background-repeat: no-repeat;
+  	background-position: center;
+	height: 600px;
+	width: 750px;
+	text-align: center;
+	position: relative;
+	color: white;
+}
+.txt {
+	padding-top: 150px;
+	font-size: 30px;
+}
+#int img{
+	height: auto;
+	width: 100%
+}
+
+#form{
+	position: relative;
+	margin-left: 850px;
+	word-spacing: 10px;
+	margin-top: -540px;
+
+	background-color: #F8F8FF;
+}
+#id{
+	padding-left: 30px;
+	padding-bottom: 30px;
+	border-top-style: none; 
+	border-left-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	background-color: #F8F8FF;
+}
+#id:hover{
+	color: #19B6DE;
+}
+#button button{
+	padding: 10px 20px;
+	color: #19B6DE;
+	border-color: #19B6DE;
+	border-radius: 20px;
+	background-color: white;
+	margin-left: 1300px;
+	position: absolute;
+	margin-top: -70px; 
+}
+#lol{
+	margin-left: 200px;
+	color: #19B6DE;
+	background-color: #F8F8FF;
+}
+a{
+	text-decoration: none;
+}
+#button button:hover{
+	background-color: #F8F8FF;
+}
+
+#img img{
+	height: 50px;
+	width: 50px;
+	margin-left: 800px;
+	margin-top: 50px;
+}
+#intro{
+	margin-left: 800px;
+	font-size: 35px;
+	background-color: #F8F8FF;
+}
+#out{
+	margin-left: 800px;
+	font-size: 20px;
+	margin-top: 60px;
+	background-color: #F8F8FF;
+}
+#button2 button{
+	margin-left: 800px;
+	height: 40px;
+	width: 350px;
+	border-radius: 15px;
+	margin-top: 10px;
+	color: white;
+	background-color: #19B6DE;
+}
+#button3 button{
+	margin-left: 800px;
+	height: 40px;
+	width: 350px;
+	border-radius: 15px;
+	border-color: #19B6DE;
+	margin-top: 10px;
+	color: #19B6DE;
+	background-color: white;
+}
+.twi-footer{
+	word-spacing: 5px;
+	text-align: center;
+	color: lightgray;
+	font-size: 15px;
+	background-color: #F8F8FF;
+	height: 30px;
+	margin-top: 60px;
+	padding-top: 30px;
+}

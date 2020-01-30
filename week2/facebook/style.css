@@ -1,0 +1,152 @@
+body{
+	margin: 0;
+	font-family: helvetica;
+	height: 720px;
+}
+.container{
+	width: 100%;
+}
+.header{
+	background-color: #4867AA ;
+	display: flex;
+}
+
+.header img{
+	margin: 15px 345px 2px 170px;
+	width: 195px;
+	height: 65px;
+}
+.header table{
+	margin-top: 15px;
+	font-size: 12px;
+}
+.header label{
+	color: white;
+}
+.header a{
+	color: #9CB4D8;
+	text-decoration: none;
+}
+#li{
+	border: 1px solid #001a4d;
+	padding: 3px 3px 4px;
+}
+#sb{
+	border: 1px solid #002b80;
+	background-color: #3b5998;
+	color: white;
+	padding: 3px;
+}
+.middle{
+	height: 520px;
+	background-color: #E5E8F1;
+	display: flex;
+}
+.left{
+	width: 50%;
+}
+.left1{
+	font-size: 20px;
+	color: #0E385F;
+	font-weight: bold;
+	margin-left: 185px;
+	margin-top: 40px;
+}
+.left img{
+	margin-left: 185px;
+	margin-top: 20px;
+	margin-right: 30px; 
+}
+.right{
+	margin-left: 40px;
+}
+.right1{
+	font-size: 36px;
+	margin-top: 30px;
+	margin-left: 5px;
+	color: #333333;
+	font-weight: bold;
+}
+.right2{
+	font-size: 19px;
+	margin-top: 10px;
+	margin-left: 5px;
+	color: #333333;
+}
+.name-surname input{
+	height: 26px;
+	font-size: 15px;
+	text-decoration-color: #f2f2f2;
+	margin-left: 10px;
+	margin-top: 15px;
+	border-color: #bdc7d8;
+    border-radius: 5px;
+}
+.right input{
+	height: 26px;
+	font-size: 15px;
+	text-decoration-color: #f2f2f2;
+	margin-left: 10px;
+	margin-top: 15px;
+	border-color: #bdc7d8;
+    border-radius: 5px;
+}
+.birthday div{
+	color: #90949C;
+	margin: 10px 0px 5px;
+	font-weight: bold;
+}
+.birthday select{
+	height: 30px;
+	width: 60px;
+}
+.sex-label{
+	color: #90949C;
+	margin: 10px 0px 5px;
+	font-weight: bold;
+}
+.sex label{
+	font-size: 18px;
+	color: #1D2129;
+	padding: 0px 10px 0px 3px;
+
+}
+.press-reg{
+	width: 316px;
+}
+.press-reg p{
+	color: #777777;
+	font-size: 11px;
+	margin: 11px 0px;
+}
+.reg-submision button{
+	color: white;
+	font-size: 19px;
+	background-color: #69A74E;
+	margin: 10px 0px;
+	padding: 7px 20px;
+	border: 1px solid;
+    border-radius: 5px;
+    border-color: #3b6e22;
+    font-weight: bold;
+    width: 194px;
+    height: 39px;
+}
+.celeb-acc p{
+	color: #666666;
+	font-size: 13px;
+	margin: 10px 0px 30px 0px;
+	padding: 15px 0px 0px;
+
+}
+
+.footer {
+	word-spacing: 5px;
+	text-align: center;
+	color: lightgray;
+	font-size: 15px;
+	background-color: #fff;
+	height: 20px;
+	margin-top: 0px;
+	padding-top: 30px;
+}
