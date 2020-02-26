@@ -1,0 +1,13 @@
+
+<!-- Category Menu-->
+
+<div class="content2">
+  <a *ngFor="let category of categories" class="card card-small pos" routerLink="/categories/{{category.id}}/products">
+    <div class="box">
+      <img src="{{category.image}}" style="width: 260px;">
+      <h4 class="none-dec" style="text-align: center; padding: 0px; margin: 10px 0px 0px 0px"> {{category.type_name}} </h4>
+    </div>
+  </a>
+</div>
+
+

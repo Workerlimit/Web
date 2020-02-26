@@ -1,0 +1,19 @@
+
+<div class="body-window">
+  <div *ngFor="let product of products" class="card">
+    <div>
+      <img src="{{product.image1}}" class="img-fluid">
+    </div>
+
+    <div class="card-body">
+      <h4 class="card-title">{{product.name}}</h4>
+
+      <p class="card-text">Rating: {{product.rating}}</p>
+      <p class="card-text">{{product.price}} ₸</p>
+
+      <a routerLink="/products/{{product.id}}"><button type="button">View Product</button></a>
+    </div>
+  </div>
+</div>
+
+

@@ -1,0 +1,11 @@
+
+<!-- Product detail -->
+<div *ngIf="product">
+  <h1 class="text0">{{product.name | uppercase}}</h1>
+  <div>
+    <img [src]="product.image1" style="width:25%">
+    <p><span class="text1">DESCRIPTION: </span><br> {{product.description}} </p>
+  </div>
+  <p><span class="text1">RATING: </span> {{product.rating}} </p>
+  <h2 class="text1">PRICE: <span class="text2">{{product.price}} ₸</span></h2>
+</div>
